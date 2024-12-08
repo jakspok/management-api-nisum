@@ -34,4 +34,4 @@ import org.springframework.context.annotation.Configuration;
                 description = "Production"
         )
 )
-public class OpenAPISecurityConfiguration {}
+public class SwaggerConfig {}

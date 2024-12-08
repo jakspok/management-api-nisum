@@ -1,6 +1,5 @@
 package com.clients.api.rest.management.model;
 
-import io.swagger.annotations.ApiModel;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.*;
 
@@ -8,8 +7,7 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Table (name = "USER_TOKENS")
-@Tag (name = "Tokens")
-@ApiModel (description = "Represents a client with personal details and associated phones.")
+@Tag(name = "Represents a client with personal details and associated phones.")
 @Entity
 @Data
 @AllArgsConstructor

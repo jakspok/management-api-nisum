@@ -1,7 +1,7 @@
 package com.clients.api.rest.management.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import io.swagger.annotations.ApiModel;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.*;
 
 import javax.persistence.*;
@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-@ApiModel(description = "Represents a client with personal details and associated phones.")
+@Tag(name = "Represents a client with personal details and associated phones.")
 @Entity
 @Data
 @AllArgsConstructor

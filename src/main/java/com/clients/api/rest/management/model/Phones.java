@@ -1,14 +1,13 @@
 package com.clients.api.rest.management.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import io.swagger.annotations.ApiModel;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.*;
-
 import javax.persistence.*;
 import java.io.Serializable;
 
 
-@ApiModel(value = "Phones")
+@Tag(name = "Phones")
 @Entity
 @Data
 @AllArgsConstructor
